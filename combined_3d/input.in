@@ -1,0 +1,51 @@
+0.3,2.0					!u1_0,u2_0                
+0.5,0.5,0.5				!dx,dy,dz                 
+0.005,200000,05000			!dt,n_time,n_wri          
+0.050,10				!D_1,D_2                  
+1.12,0.067,1.0,4.0			!delta,k_0,k,n_hill       
+1.0,0.0					!gama_chro,gama_void      
+0					!n_stim             
+20000,12098				!n_data,xic(human=9335; mouse=12098)               
+0.5     				!kappa                    
+5       				!buff                    
+0.05,0.1				!alpha_1,beta_1           
+0.05,0.1				!alpha_2,beta_2           
+0.0     				!u4_0                     
+1,0     				!r1,r2                    
+0.01,1.0				!phi_1,phi_2              
+4,4     				!n_1,n_2                  
+25      				!D_4                      
+100,0.005			 	!n_thr,thr_coeff
+10.0    				!beta4                    
+0.01    				!alpha4                   
+1.0,10					!stim_val,stim_time
+06,0.05,1				!n_tube,r_tube,tube_wri
+30					!radius of exclusion from xic
+
+
+u1_0,u2_0                !initial values
+dx,dy,dz                 !parameters associated to space discreetization
+dt,n_time,n_wri          !parameters associated to time discreetization
+D_1,D_2                  !diffusion coefficient
+delta,k_0,k,n_hill       !System parameters
+gama_chro,gama_void      !positive feedback coefficient over the chromatin and the void space respectively          
+n_stim,sigma             !parameters related to stimulation (nb: sigma controls size of the each stimiulation in space)
+n_data,xic               !number of datapoints in the geom file and xic= x inactivation center
+kappa                    !gamma decay parameter
+buff                     !buffer region around the chromatin structure in terms of grid points
+alpha_1,beta_1           !degradation and production rates of activator
+alpha_2,beta_2           !degradation and production rates of inhibitor
+u4_0                     !initial value
+r1,r2                    !switch for hill functions for prod and decay respectively
+phi_1,phi_2              !feedback strengths for prod and decay respectively
+n_1,n_2                  !hill coefficients for prod and decay respectively
+D_4                      !diffusion coefficient
+n_thr,thr_coeff          !number of thethering sites and tethering coefficient
+beta4                    !maximal production rate
+alpha4                   !maximal decay rate
+stim_val,stim_time       !Duration of the invoked stimulation
+n_tube,r_tube,tube_wri   !tube params
+xic_exclusion_dist       !radius of exclusion from xic
+
+
+9.005321412326388E-002,1.2

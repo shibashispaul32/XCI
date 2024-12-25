@@ -1,0 +1,23 @@
+0.0
+0.1,200
+0.001,2000000,20
+1.0,1.0,4.0
+1.0,1.0
+10.0
+4.0
+1
+10,10
+0.03
+
+
+
+read(1,*)u4_0                        !initial values
+read(1,*)dx,n_x                      !parameters associated to space discreetization
+read(1,*)dt,n_time,t_wri             !parameters associated to time discreetization
+read(1,*)beta4,alpha4,n_1            !system parameters
+read(1,*)D_4_hi,D_4_lo               !diffusion coefficient
+read(1,*)r                           !decay1 parameters
+read(1,*)n_2                         !decay2 parameters
+read(1,*)n_stim                      !number of stimuli
+read(1,*)xic_begin,xic_end           !location of X inactivation center
+read(1,*)thr_coeff

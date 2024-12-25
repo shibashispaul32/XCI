@@ -1,0 +1,83 @@
+0.2683312,2.0            read(1,*)u1_0,u2_0              
+0.2,200                  read(1,*)dx,n_x                 
+0.001,0200000,1          read(1,*)dt,n_time,t_wri        
+0.025,010                read(1,*)D_1,D_2                  
+1.10,0.067,1.1,4         read(1,*)delta,k_0,k,n_hill      
+0.06,0.1                 read(1,*)alpha1,beta1           
+0.06,0.1                 read(1,*)alpha2,beta2           
+1.0,0.0                  read(1,*)gama_chro,gama_void    
+0,50,95                read(1,*)g_i,g_t,g_stop         
+1200,1                   read(1,*)m,n_stim                  
+2                        read(1,*)map                    
+1                        read(1,*)sym                    
+1.0,0.0,2.0,04.0         read(1,*)s,t0,t1,t2
+0                       read(1,*)boundary_con           
+
+
+read(1,*)u1_0,u2_0                       !initial values
+read(1,*)dx,n_x                          !parameters associated to space discreetization
+read(1,*)dt,n_time,t_wri                 !parameters associated to time discreetization
+read(1,*)D_1,D_2                         !diffusion coefficient
+read(1,*)delta,k_0,k,n_hill              !System parameters
+read(1,*)alpha1,beta1                    !System parameters
+read(1,*)alpha2,beta2                    !System parameters
+read(1,*)gama_chro,gama_void             !chromatin dependent positive feedback parameter
+read(1,*)g_i,g_t,g_stop                  !geometry initiation and termination grid and (gi<gt<n/2)
+read(1,*)m,n_stim                        !compaction time step
+read(1,*)map                             !mapping parameter 1 for non-conserved situation
+read(1,*)sym                             !spatial symmetry of the initial stimulation 1 for symmetric and 0 for asymmetric
+read(1,*)s,t0,t1,t2
+read(1,*)boundary_con                    !0 for zero flux, periodic otherwise
+
+
+==========================
+==   fig-3b
+==========================
+0.2683312,2.0            read(1,*)u1_0,u2_0              
+0.2,200                  read(1,*)dx,n_x                 
+0.001,0200000,1          read(1,*)dt,n_time,t_wri        
+0.025,010                read(1,*)D_1,D_2                  
+1.10,0.067,1.1,4         read(1,*)delta,k_0,k,n_hill      
+0.06,0.1                 read(1,*)alpha1,beta1           
+0.06,0.1                 read(1,*)alpha2,beta2           
+1.0,0.0                  read(1,*)gama_chro,gama_void    
+25,075,075             read(1,*)g_i,g_t,g_stop         
+6000,1                   read(1,*)m,n_stim                  
+2                        read(1,*)map                    
+1                        read(1,*)sym                    
+1.0,0.0,2.0,04.0         read(1,*)s,t0,t1,t2
+1                        read(1,*)boundary_con           
+==========================
+==   fig-3c
+==========================
+0.2683312,2.0            read(1,*)u1_0,u2_0              
+0.2,200                  read(1,*)dx,n_x                 
+0.001,0200000,1          read(1,*)dt,n_time,t_wri        
+0.025,010                read(1,*)D_1,D_2                  
+1.10,0.067,1.1,4         read(1,*)delta,k_0,k,n_hill      
+0.06,0.1                 read(1,*)alpha1,beta1           
+0.06,0.1                 read(1,*)alpha2,beta2           
+1.0,0.0                  read(1,*)gama_chro,gama_void    
+45,095,095             read(1,*)g_i,g_t,g_stop         
+6000,1                   read(1,*)m,n_stim                  
+2                        read(1,*)map                    
+1                        read(1,*)sym                    
+1.0,0.0,2.0,04.0         read(1,*)s,t0,t1,t2
+1                        read(1,*)boundary_con           
+==========================
+==   fig-3d
+==========================
+0.2683312,2.0            read(1,*)u1_0,u2_0              
+0.2,200                  read(1,*)dx,n_x                 
+0.001,0200000,1          read(1,*)dt,n_time,t_wri        
+0.025,010                read(1,*)D_1,D_2                  
+1.10,0.067,1.1,4         read(1,*)delta,k_0,k,n_hill      
+0.06,0.1                 read(1,*)alpha1,beta1           
+0.06,0.1                 read(1,*)alpha2,beta2           
+1.0,0.0                  read(1,*)gama_chro,gama_void    
+00,050,095             read(1,*)g_i,g_t,g_stop         
+1200,1                   read(1,*)m,n_stim                  
+2                        read(1,*)map                    
+1                        read(1,*)sym                    
+1.0,0.0,2.0,04.0         read(1,*)s,t0,t1,t2
+1                        read(1,*)boundary_con           

@@ -1,0 +1,29 @@
+0.3,2.0        !observed wave pinning
+0.2,100
+0.001,1000000,1000
+0.025,10
+1.10,0.067,1.0,4
+0.06,0.1
+0.06,0.1
+1.0,8.0
+1.0,0.0,5.0,10.0
+1.0,1.0
+
+read(1,*)u1_0,u2_0                       !initial values
+read(1,*)dx,n_x                          !parameters associated to space discreetization
+read(1,*)dt,n_time,n_wri                 !parameters associated to time discreetization
+read(1,*)D_1,D_2                         !diffusion coefficient
+read(1,*)delta,k_0,k,n_hill              !System parameters
+read(1,*)alpha1,beta1                    !System parameters
+read(1,*)alpha2,beta2                    !System parameters
+read(1,*)n_stim,power_stim               !number of stimuli and the exponent of the stimulation function
+read(1,*)s,t0,t1,t2                      !stimulation parameters
+read(1,*)gama_on,gama_off                !System parameters
+
+
+
+
+0.2683312,2.0        !observed wave pinning
+0.197737079770825,2.0        
+2.25737890798844,2.5 !no wave pinning
+2.87778043564062,3.0 !no wave pinning

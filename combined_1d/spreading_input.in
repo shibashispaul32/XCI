@@ -1,0 +1,25 @@
+0.0                          !u4_0                        !initial value
+1,0                          !r1,r2                       !switch for hill functions
+0.01,1.0                     !phi_1,phi_2                 !feedback strengths
+4,4                          !n_1,n_2                     !hill coefficients
+010.0                        !D_4                         !diffusion coefficient
+040,040                      !xic_begin,xic_end           !location of X inactivation center
+0.5                          !thr_coeff                   !threshold coefficient for xist tethering concentration
+1.0,50000                    !beta4,tlim_beta4            !maximal production rate
+0.01                         !alpha4                      !maximal decay rate
+0.02                         !prob_fac                    !probability of xist tethering
+
+
+
+
+
+read(2,*)u4_0                        !initial value
+read(2,*)r1,r2                       !switch for hill functions for prod and decay respectively
+read(2,*)phi_1,phi_2                 !feedback strengths for prod and decay respectively
+read(2,*)n_1,n_2                     !hill coefficients for prod and decay respectively
+read(2,*)D_4                         !diffusion coefficient
+read(2,*)xic_begin,xic_end           !location of X inactivation center
+read(2,*)thr_coeff                   !threshold coefficient for xist tethering concentration
+read(2,*)beta4,tlim_beta4            !maximal production rate
+read(2,*)alpha4                      !maximal decay rate
+read(2,*)prob_fac                    !probability of xist tethering
