@@ -5,6 +5,6 @@ The fortran codes require a fortran compiler to be installed in the system. We p
 
 In addition to fortran codes there are jupyter notebooks which are run with python to analyse the simulated and experimental data.
 
-To runthe codes in jupyter notebook first download the data folder from this link: https://drive.google.com/file/d/1loZju1k7LiZpPMw9fYHPH4DfbP6U2BVC/view?usp=sharing
+To run the codes in jupyter notebook first download the data folder from this link: https://drive.google.com/file/d/1loZju1k7LiZpPMw9fYHPH4DfbP6U2BVC/view?usp=sharing
 
-Then extract the content to the root directory and then run the codes in jupyter notebook.
+Then extract the content to the root directory and then only execute the codes in jupyter notebook.
