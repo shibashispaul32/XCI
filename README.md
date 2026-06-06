@@ -7,3 +7,5 @@ In addition to the Fortran codes, there are Jupyter notebooks that use Python to
 
 To execute the code within the Jupyter notebooks, you must first download the data folder from the following link: https://drive.google.com/file/d/16dCaZlECGkhGIXuHNL44OQbtqFrRsWOa/view?usp=sharing
 After downloading, extract the contents of the .zip file to the root directory of the project. The Jupyter notebook codes can only be executed successfully after this step.
+
+The environment.yml file can be used to to recreate the conda environment that was used in this project to execute codes.
